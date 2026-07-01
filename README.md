@@ -1,7 +1,8 @@
-# Emotion Detector
+# Final project
 
-Flask web application that sends customer feedback text to Watson NLP and returns
-scores for anger, disgust, fear, joy, sadness, plus the dominant emotion.
+Emotion detection Flask web application that sends customer feedback text to
+Watson NLP and returns scores for anger, disgust, fear, joy, sadness, plus the
+dominant emotion.
 
 ## Run locally
 
@@ -15,6 +16,6 @@ Open `http://127.0.0.1:5000`.
 ## Test and lint
 
 ```bash
-python3 -m unittest discover -s tests
-python3 -m pylint server.py EmotionDetection tests
+python3 test_emotion_detection.py
+python3 -m pylint server.py
 ```
